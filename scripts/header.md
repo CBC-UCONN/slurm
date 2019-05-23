@@ -11,6 +11,6 @@
 #SBATCH --qos=general
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=
-#SBATCH -o ../log_files/%x_%A.out
-#SBATCH -e ../log_files/%x_%A.err
+#SBATCH -o %x_%A.out
+#SBATCH -e %x_%A.err
 </pre>
